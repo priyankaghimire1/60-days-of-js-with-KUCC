@@ -1,0 +1,1 @@
+-Basics of HTML: HTML is a language which is used to make websites and also make them functional. It mainly just uses tags and attributes. Tags are the elements of HTML while attributes are additional information of those elements.              
