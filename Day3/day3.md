@@ -1,0 +1,2 @@
+CSS (cascading style sheets) is a tool used to describe the layout of the elements that have been created in the website by the use of HTML. 
+It can be incorporated into HTML by 3 ways mainly: Inline CSS where they are written in the HTML element itself, Internal CSS where it is placed in the <style> element of the HTML and finally external CSS which has to be linked into the HTML document by the use of link element.  

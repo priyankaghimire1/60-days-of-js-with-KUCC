@@ -1,0 +1,39 @@
+
+.pink-text{
+    color: rgb(213, 142, 168);
+    font-size: 20px;
+ }
+h2{
+    border:rgb(146, 112, 124);
+    border-width: 10px;
+    border-style: solid;
+    text-align: center;
+    border-radius: 10px;
+}
+.highlight{
+   background-color:rgb(164, 213, 255);
+   margin: 10px, auto, 10px, auto;
+
+}
+#welcome{
+     background-color: beige;
+}
+.cat{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 20px 10px;
+      }
+.cat img{
+        width: 100%;
+        max-width: 350px;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 10px;
+      
+}
