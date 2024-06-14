@@ -17,7 +17,6 @@ class intro extends hi{
 }
 let hero=new intro("Ram", "Greetings");
 console.log(hero.personName);
-
 let mira=new hi("Mira","Hi!!!" );
 console.log(mira.personName);
 const hi1 = class hi{
