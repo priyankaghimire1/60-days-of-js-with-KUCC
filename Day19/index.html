@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="results.html" method="get">
+        <div>
+        <label for="name">Name</label>
+        <input name="name" id="name" placeholder="Username" required>
+        </div>
+        <div>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required>
+        </div>
+        <div>
+            <label for="age">Age</label>
+            <input type="number" name="age" id="age" min="1" max="200" step="5" required>
+        </div>
+        <div>
+            <label for="date">Age</label>
+            <input type="date" name="date" id="date" required>
+        </div>
+        <div>
+        <label for="password">Password</label>
+        <input name="Password" id="password" type="password" required>
+        </div>
+        <div>
+        <div>
+            <label for="checkbox">Fruits</label></div>
+            <label for ="banana">Banana</label>
+            <input name="banana" id="banana" type="checkbox">
+            <label for ="apple">Apple</label>
+            <input name="apple" id="apple" type="checkbox">
+        
+        </div>
+        <div>
+            <div>
+                <label>Fruits</label></div>
+                <label for ="banana">Banana</label>
+                <input name="fruits" type="radio" value="banana">
+                <label for ="apple">Apple</label>
+                <input name="fruits" type="radio" value="apple">
+        </div>
+        <div>
+            <label for="University">University</label>
+            <select>
+                <option value="Tribhuvan">Tribhuvan college</option>
+                <option value="Kathmandu">Kathmandu college</option>
+            </select>
+        </div>     
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
