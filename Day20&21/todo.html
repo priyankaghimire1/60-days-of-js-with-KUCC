@@ -7,16 +7,20 @@
     <link rel="stylesheet" href="todo.css">
 </head>
 <body>
-    <script src="todo.js"></script>
-    <div>To do list</div>
+    
+    <div  class="header">To do list</div>
     <div>
         <input type="text" placeholder="Add task here" id="input">
-        <button onclick="task()">Add task</button>
+        <button onclick="newElement()" class="button">Add task</button>
        
-    </div>
+    </div><br>
     <div>
         <h2>To do list</h2>
-    <ul id="todo"></ul>
+    <ul id="todo">
+        <li class="hi">Going to get groceries</li>
+        <li class="checked hi">Complete homework</li>
+    </ul>
+    <script src="todo.js"></script>
     </div>
 </body>
 </html>

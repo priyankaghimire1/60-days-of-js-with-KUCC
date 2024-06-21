@@ -1,0 +1,54 @@
+*{
+    box-sizing: border_box;
+   
+}
+body{
+  background-color: rgb(235, 221, 221);
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+ul li{
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    list-style: none;
+    background-color: #c7b1ba;
+    width: 80vw;
+    border: 5px solid white;
+
+}
+ul li:hover{
+    background-color: rgb(231, 211, 211);
+}
+ul li.checked{
+    text-decoration: line-through;
+}
+.header {
+    background-color: rgb(160, 111, 111);
+    padding: 30px 40px;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+  }
+input
+  {
+    margin: 0;
+    width: 80vw;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+  }
+.button {
+    padding: 10px; 
+    width: 15vw;
+    background: #9a5d5d;
+    color: #a98888;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 10px;
+  }
+.button:hover {
+    background-color: #4b3c3c;
+}
